@@ -50,10 +50,10 @@ New-OfflineAddressBook -Name "OAB2016" -AddressLists "Default Global Address Lis
 Get-ClientAccessServer | FL id*,auto*
 Set-ClientAccessServer -Identity EX2013 -AutoDiscoverServiceInternalURI 
 Set-ClientAccessService -Identity EX2016 -AutoDiscoverServiceInternalURI 
-設定內部
+#設定內部
 Set-ClientAccessService -Identity Internal_Hostname -AutoDiscoverServiceInternalUri https://External_FQDN/Autodiscover/Autodiscover.xml
+#範例
 Set-ClientAccessService -Identity EX01 -AutoDiscoverServiceInternalUri https://mail.brianhsing.store/Autodiscover/Autodiscover.xml
-Set-ClientAccessService -Identity EX02 -AutoDiscoverServiceInternalUri https://mail.brianhsing.store/Autodiscover/Autodiscover.xml
 ````
 
 
@@ -117,7 +117,7 @@ Slui
 
 - Exchange Server 授權<br>
 ````
-Set-ExchangeServer EX2016 -ProductKey QXYKC-7H87P-YKC2Q-XRVQ7-GTJP2
+Set-ExchangeServer EX2016 -ProductKey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 Restart-Service MSExchangeIS
 ````
 
