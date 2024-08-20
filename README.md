@@ -15,7 +15,7 @@ Exchange Server 安裝雖然有精靈可以快速地完成，可是在真實環�
 - 內部的 Autodiscover 常常會被忽略，導致憑證放進去的時候，使用者端會出現安全性提示，通常會建議內外設定一致，會比較好管理，會使用這一段指令進行設定`Set-ClientAccessService -Identity EX伺服器名稱 -AutoDiscoverServiceInternalUri https://與外部一致的FQDN/Autodiscover/Autodiscover.xml`<br>
 - 後續的步驟大致上就是要建立離線通訊錄、設定內外虛擬目錄URL、設定連接器、指派 Exchange 授權等。<br>
 
-## 安裝 Exchange Server 步驟
+## 安裝 Exchange Server 
 
 - [Exchange Server 2016](/Exchange2016/ex2016.md) <br>
 - Exchange Server 2019 <br>
