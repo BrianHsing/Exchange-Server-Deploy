@@ -1,4 +1,4 @@
-# Exchange Server 安裝紀錄
+# Exchange Server 部署安裝
 
 ## 前言
 
