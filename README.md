@@ -18,6 +18,7 @@ Exchange Server 安裝雖然有精靈可以快速地完成，可是在真實環�
 
 - [Exchange Server 2016](/Exchange2016/ex2016.md) <br>
 - Exchange Server 2019 <br>
+- [Exchange Server 混合式部署](https://github.com/BrianHsing/Exchange-Hybrid-Deployments) <br>
 
 ## 超有用連結
 
