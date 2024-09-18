@@ -11,10 +11,8 @@
   Set-ExchangeServer EX2016 -ProductKey QXYKC-7H87P-XXXXX-XXXXX-XXXXX
   Restart-Service MSExchangeIS
   ````
-  ![GITHUB](/TaskImages/2.png)<br>
-- 完成後會提示需要重新啟動資訊儲存庫服務。<br>
   ![GITHUB](/TaskImages/3.png)<br>
-- 重新啟動資訊儲存庫服務。<br>
+- 完成後會提示需要重新啟動資訊儲存庫服務，重新啟動資訊儲存庫服務。<br>
   ![GITHUB](/TaskImages/4.png)<br>
 - 重新整理 Exchange 系統管理中心後，就可以看到已獲授權的字樣。<br>
   ![GITHUB](/TaskImages/5.png)<br>
